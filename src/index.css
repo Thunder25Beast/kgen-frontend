@@ -27,9 +27,11 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column; /* Stack children vertically */
+  align-items: stretch; /* Allow children to take full width */
   min-width: 320px;
   min-height: 100vh;
+
 }
 
 h1 {
